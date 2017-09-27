@@ -11,6 +11,8 @@ public class UserService {
     private UserMapper userMapper;
 
     public String getUserName(){
-        return  userMapper.getUserInfo().getUserName();
+        User user = userMapper.getUserInfo();
+        System.out.println(user.getUserId()+"----------------------------------");
+        return  user.getUserName();
     }
 }

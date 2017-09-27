@@ -24,21 +24,6 @@
         <package name="com.maple.model"/>
     </typeAliases>
 
-    <!--运行环境配置-->
-    <environments default="dev">
-        <environment id="dev">
-            <transactionManager type="JDBC">
-                <property name="..." value="..."/>
-            </transactionManager>
-            <dataSource type="POOLED">
-                <property name="driver" value="${driver}"/>
-                <property name="url" value="${url}"/>
-                <property name="username" value="${username}"/>
-                <property name="password" value="${password}"/>
-            </dataSource>
-        </environment>
-    </environments>
-
     <!--向MyBatis注册映射信息-->
     <mappers>
         <package name="com.maple.model"/>

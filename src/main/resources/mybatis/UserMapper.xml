@@ -3,7 +3,7 @@
 
 <mapper namespace="com.maple.mapper.UserMapper">
 
-    <select id="getUserInfo" resultType="com.maple.model.User">
+    <select id="getUserInfo" resultType="user">
         select * from user
     </select>
 
