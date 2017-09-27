@@ -1,230 +1,31 @@
-2017-09-27 22:19:34,321 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 776 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:19:34,324 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:19:34,325 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:19:38,598 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.859 seconds (JVM running for 7.626)
-2017-09-27 22:21:27,797 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 1240 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:21:27,799 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:21:27,799 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:21:31,378 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.234 seconds (JVM running for 5.428)
-2017-09-27 22:30:40,126 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 1240 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:30:40,126 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:30:40,126 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:30:48,670 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4964 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:30:48,682 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:30:48,683 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:34:27,358 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 6136 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:34:27,359 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:34:27,359 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:34:30,457 INFO (StartupInfoLogger.java:57)- Started StartApp in 3.675 seconds (JVM running for 5.061)
-2017-09-27 22:35:48,861 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 22:57:56,590 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 5732 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:57:56,591 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:57:56,591 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 22:57:59,828 INFO (StartupInfoLogger.java:57)- Started StartApp in 3.71 seconds (JVM running for 4.767)
-2017-09-27 22:59:56,399 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 224 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 22:59:56,401 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 22:59:56,405 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:00:03,070 INFO (StartupInfoLogger.java:57)- Started StartApp in 7.139 seconds (JVM running for 7.658)
-2017-09-27 23:01:30,122 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 224 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:01:30,125 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:01:30,126 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:01:31,629 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.575 seconds (JVM running for 96.223)
-2017-09-27 23:02:00,611 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:02:00,612 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:02:00,613 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:02:06,810 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.699 seconds (JVM running for 7.23)
-2017-09-27 23:04:02,385 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:04:02,412 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:04:02,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2017-09-27 23:07:39,002 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:07:39,003 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:07:39,005 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:07:41,015 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.081 seconds (JVM running for 341.446)
-2017-09-27 23:07:48,650 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:07:48,652 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:07:48,655 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:07:50,844 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.304 seconds (JVM running for 351.276)
-2017-09-27 23:08:22,768 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:08:22,769 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:08:22,770 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:08:24,111 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.391 seconds (JVM running for 384.542)
-2017-09-27 23:09:12,914 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:09:12,916 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:09:12,917 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:09:14,102 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.252 seconds (JVM running for 434.535)
-2017-09-27 23:09:18,617 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:09:18,618 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:09:18,620 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:09:20,554 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.025 seconds (JVM running for 440.987)
-2017-09-27 23:09:23,148 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:09:23,149 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:09:23,150 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:09:25,129 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.03 seconds (JVM running for 445.565)
-2017-09-27 23:09:39,775 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:09:39,775 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:09:39,776 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:09:41,504 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.793 seconds (JVM running for 461.944)
-2017-09-27 23:10:57,048 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:10:57,049 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:10:57,050 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:10:58,461 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.469 seconds (JVM running for 538.903)
-2017-09-27 23:11:23,586 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:11:23,587 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:11:23,588 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:11:24,612 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.09 seconds (JVM running for 565.055)
-2017-09-27 23:11:30,737 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:11:30,738 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:11:30,739 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:11:31,670 INFO (StartupInfoLogger.java:57)- Started StartApp in 0.971 seconds (JVM running for 572.116)
-2017-09-27 23:11:48,455 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:11:48,468 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:11:48,479 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:11:49,974 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.624 seconds (JVM running for 590.421)
-2017-09-27 23:11:52,573 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:11:52,574 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:11:52,574 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:11:53,910 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.379 seconds (JVM running for 594.356)
-2017-09-27 23:12:11,515 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:12:11,516 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:12:11,517 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:12:12,625 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.207 seconds (JVM running for 613.072)
-2017-09-27 23:13:09,807 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:13:09,807 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:13:09,808 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:13:10,831 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.058 seconds (JVM running for 671.279)
-2017-09-27 23:14:18,807 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:14:18,808 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:14:18,808 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:14:38,488 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:14:38,489 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:14:38,490 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:14:39,939 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.522 seconds (JVM running for 760.391)
-2017-09-27 23:14:42,803 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:14:42,804 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:14:42,805 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:14:44,160 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.407 seconds (JVM running for 764.612)
-2017-09-27 23:15:11,068 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:15:11,069 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:15:11,074 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:15:44,684 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:15:44,684 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:15:44,685 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:15:46,071 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.425 seconds (JVM running for 826.527)
-2017-09-27 23:18:20,156 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:18:20,157 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:18:20,157 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:18:21,322 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.207 seconds (JVM running for 981.79)
-2017-09-27 23:19:21,644 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:19:21,645 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:19:21,646 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:19:22,878 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.27 seconds (JVM running for 1043.353)
-2017-09-27 23:20:19,707 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:20:19,708 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:20:19,709 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:20:21,427 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.767 seconds (JVM running for 1101.902)
-2017-09-27 23:20:23,745 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:20:23,746 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:20:23,746 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:20:25,014 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.324 seconds (JVM running for 1105.488)
-2017-09-27 23:20:56,624 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:20:56,625 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:20:56,625 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:20:58,399 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.818 seconds (JVM running for 1138.873)
-2017-09-27 23:21:30,785 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:21:30,788 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:21:30,789 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:21:32,180 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.555 seconds (JVM running for 1172.653)
-2017-09-27 23:22:00,197 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:00,198 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:00,198 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:01,754 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.598 seconds (JVM running for 1202.227)
-2017-09-27 23:22:11,799 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:11,801 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:11,804 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:13,473 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.781 seconds (JVM running for 1213.946)
-2017-09-27 23:22:15,802 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:15,803 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:15,805 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:16,903 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.133 seconds (JVM running for 1217.378)
-2017-09-27 23:22:20,894 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:20,895 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:20,896 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:22,016 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.158 seconds (JVM running for 1222.491)
-2017-09-27 23:22:25,014 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:25,015 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:25,015 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:26,516 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.545 seconds (JVM running for 1226.991)
-2017-09-27 23:22:30,205 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:30,206 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:30,206 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:31,410 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.246 seconds (JVM running for 1231.885)
-2017-09-27 23:22:37,004 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:22:37,004 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:22:37,005 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:22:38,225 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.267 seconds (JVM running for 1238.7)
-2017-09-27 23:23:42,114 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:23:42,115 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:23:42,116 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:23:43,204 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.135 seconds (JVM running for 1303.682)
-2017-09-27 23:23:51,733 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:23:51,734 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:23:51,734 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:23:53,289 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.603 seconds (JVM running for 1313.768)
-2017-09-27 23:24:05,919 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:24:05,920 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:24:05,921 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:24:07,245 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.368 seconds (JVM running for 1327.723)
-2017-09-27 23:24:15,185 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:24:15,186 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:24:15,187 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:24:16,764 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.611 seconds (JVM running for 1337.242)
-2017-09-27 23:24:20,974 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:24:20,975 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:24:20,975 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:24:28,375 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:24:28,375 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:24:28,376 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:24:29,632 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.296 seconds (JVM running for 1350.109)
-2017-09-27 23:24:31,370 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4540 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:24:31,371 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:24:31,371 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:24:32,378 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.043 seconds (JVM running for 1352.856)
-2017-09-27 23:25:36,227 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3192 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:25:36,228 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:25:36,229 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:25:40,599 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.764 seconds (JVM running for 8.531)
-2017-09-27 23:27:14,134 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:27:14,156 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:27:14,179 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2017-09-27 23:30:42,266 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 5528 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:30:42,267 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:30:42,268 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:30:47,432 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.786 seconds (JVM running for 7.03)
-2017-09-27 23:31:30,534 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:31:30,549 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:31:30,694 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2017-09-27 23:33:49,976 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2496 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:33:49,977 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:33:49,979 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:33:54,097 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.952 seconds (JVM running for 7.834)
-2017-09-27 23:34:14,319 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:34:14,335 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:34:14,349 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2017-09-27 23:34:40,558 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:34:40,559 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:34:40,560 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
-2017-09-27 23:44:15,735 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 5684 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:44:15,737 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:44:15,738 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:44:19,252 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.089 seconds (JVM running for 5.263)
-2017-09-27 23:46:04,853 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2224 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:46:04,854 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:46:04,855 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:46:08,868 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.516 seconds (JVM running for 5.604)
-2017-09-27 23:46:28,942 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2268 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
-2017-09-27 23:46:28,942 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
-2017-09-27 23:46:28,943 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
-2017-09-27 23:46:32,911 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.294 seconds (JVM running for 5.279)
-2017-09-27 23:46:38,456 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
-2017-09-27 23:46:38,471 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
-2017-09-27 23:46:38,482 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-28 00:07:16,403 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 1508 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:07:16,431 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:07:16,432 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:07:20,330 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.436 seconds (JVM running for 6.199)
+2017-09-28 00:19:20,945 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3976 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:19:20,946 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:19:20,947 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:19:25,219 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.692 seconds (JVM running for 5.807)
+2017-09-28 00:20:16,551 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 5956 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:20:16,552 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:20:16,553 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:20:20,947 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.905 seconds (JVM running for 5.906)
+2017-09-28 00:21:10,337 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 5340 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:21:10,338 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:21:10,338 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:21:14,222 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.327 seconds (JVM running for 5.376)
+2017-09-28 00:33:54,644 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2888 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:33:54,645 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:33:54,645 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:33:58,907 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.667 seconds (JVM running for 5.861)
+2017-09-28 00:37:05,949 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3220 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:37:05,950 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:37:05,951 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:37:09,918 INFO (StartupInfoLogger.java:57)- Started StartApp in 4.568 seconds (JVM running for 6.122)
+2017-09-28 00:39:38,944 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 4352 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-28 00:39:38,945 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-28 00:39:38,945 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-28 00:39:43,752 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.573 seconds (JVM running for 6.612)
+2017-09-28 00:39:47,148 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user 
+2017-09-28 00:39:47,171 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-09-28 00:39:47,185 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
