@@ -1,4 +1,4 @@
-package com.maple.util;
+package com.maple.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;

@@ -1,5 +1,6 @@
 package com.maple.service;
 
+import com.maple.config.Response;
 import com.maple.mapper.UserMapper;
 import com.maple.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,9 +11,12 @@ public class UserService {
     @Autowired
     private UserMapper userMapper;
 
-    public String getUserName(){
+    public Response getUserName(){
         User user = userMapper.getUserInfo();
         System.out.println(user.getUserId()+"----------------------------------");
-        return  user.getUserName();
+        Response response = new Response();
+        response.setData(user);
+        response.setStatus(Response.STATUS_SUCCESS);
+        return  response;
     }
 }
