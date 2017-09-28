@@ -5,21 +5,22 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @EnableAutoConfiguration  //1开启自动配置
 @ComponentScan  //2开启bean扫描
-@RestController //3spring mvc的rest控制器方法
+@RestController //3spring mvc的rest控制器方法@RestController
 @SpringBootApplication
 public class StartApp {
 
     @RequestMapping("/")
-    public String index(Model model) {
+    public ModelAndView index() {
+        System.out.println("into index---------------------------------");
         User single = new User("1","test1");
         List<User> people = new ArrayList<>();
         User p1 = new User("2", "test2");
@@ -28,9 +29,11 @@ public class StartApp {
         people.add(p1);
         people.add(p2);
         people.add(p3);
-        model.addAttribute("singlePerson", single);
-        model.addAttribute("people", people);
-        return "index";
+        ModelAndView mv = new ModelAndView("index"); //到指定页面index.html
+        mv.addObject("single", single);
+        mv.addObject("people", people);
+        System.out.println("into index---------------------------------"+single.getUserName());
+        return mv;
     }
 
     public static void main(String[] args) {
