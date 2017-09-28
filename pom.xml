@@ -73,6 +73,13 @@
             <artifactId>pagehelper</artifactId>
             <version>3.7.5</version>
         </dependency>
+             
+         <!-- password encryption --> 
+        <dependency>   
+            <groupId>com.github.ulisesbocchio</groupId>  
+            <artifactId>jasypt-spring-boot-starter</artifactId>  
+            <version>1.14</version> 
+        </dependency>
 
     </dependencies>
 
