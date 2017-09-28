@@ -1,5 +1,11 @@
-package com.hsbc.mf.config.ds;
-import javax.servlet.annotation.WebFilter;import javax.servlet.annotation.WebInitParam;
+package com.maple.config;
 import com.alibaba.druid.support.http.WebStatFilter;
-@WebFilter(filterName = "druidWebStatFilter", urlPatterns = "/*",  initParams = {  @WebInitParam(name = "exclusions", value = "*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*") })public class DruidStatFilter extends WebStatFilter {
+
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.annotation.WebInitParam;
+
+@WebFilter(filterName = "druidWebStatFilter", urlPatterns = "/*",initParams = {
+        @WebInitParam(name = "exclusions", value = "*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*")})
+public class DruidStatFilter extends WebStatFilter {
+
 }
