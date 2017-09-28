@@ -73,12 +73,12 @@
             <artifactId>pagehelper</artifactId>
             <version>3.7.5</version>
         </dependency>
-             
-         <!-- password encryption --> 
-        <dependency>   
-            <groupId>com.github.ulisesbocchio</groupId>  
-            <artifactId>jasypt-spring-boot-starter</artifactId>  
-            <version>1.14</version> 
+
+        <!--password encryption-->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>1.14</version>
         </dependency>
 
     </dependencies>
@@ -90,15 +90,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                     <fork>true</fork>
+                    <fork>true</fork>
                 </configuration>
-<!--                <dependencies>
-                    <dependency>
-                        <groupId>org.springframework</groupId>
-                        <artifactId>springloaded</artifactId>
-                        <version>1.2.6.RELEASE</version>
-                    </dependency>
-                </dependencies>-->
             </plugin>
         </plugins>
     </build>
