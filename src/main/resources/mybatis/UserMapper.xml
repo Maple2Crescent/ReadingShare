@@ -17,7 +17,7 @@
        <id column="USER_ID" property="userId" />
         <result column="USER_NAME" property="userName" />
         <result column="PASSWORD" property="password" />
-        <result column="USER_DESC" property="user_desc" />
+        <result column="USER_DESC" property="userDesc" />
         <collection property="roles" ofType="role">
             <id column="ROLE_ID"  property="roleId" />
             <result column="ROLE_NAME" property="roleName" />

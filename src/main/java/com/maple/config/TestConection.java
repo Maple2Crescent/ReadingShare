@@ -1,5 +1,7 @@
 package com.maple.config;
 
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
 import java.sql.*;
 
 public class TestConection {
@@ -15,6 +17,11 @@ public class TestConection {
         }
         rs.close();
         conn.close(); //结束数据库的连接
+
+        String password = "123";
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder(10);
+        System.out.println(passwordEncoder.encode(password));
+        System.out.println(passwordEncoder.matches("123","$2a$10$BXUFpCoNoZoyYehjyf4TzO8uURe/.ddNYYGDmhX6sRwJD4TSBMuDq"));
 
     }
 

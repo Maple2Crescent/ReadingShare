@@ -262,3 +262,226 @@
 2017-09-30 18:01:53,714 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where user_id = 1 
 2017-09-30 18:01:53,731 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
 2017-09-30 18:01:53,744 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 22:32:02,156 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 22:32:02,173 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 22:32:02,173 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 22:32:09,562 INFO (StartupInfoLogger.java:57)- Started StartApp in 8.088 seconds (JVM running for 10.678)
+2017-09-30 22:33:20,752 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 22:33:20,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 22:50:23,075 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 22:50:23,076 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 22:50:23,076 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 22:50:26,053 INFO (StartupInfoLogger.java:57)- Started StartApp in 3.048 seconds (JVM running for 1107.145)
+2017-09-30 22:50:36,723 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 22:50:36,725 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 22:50:36,727 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:05:02,196 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:05:02,197 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:05:02,197 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:05:11,157 INFO (StartupInfoLogger.java:57)- Started StartApp in 9.007 seconds (JVM running for 1992.229)
+2017-09-30 23:05:38,020 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:05:38,026 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:05:38,028 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:08:41,089 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:08:41,089 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:08:41,089 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:11:34,004 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:11:34,005 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:11:34,005 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:11:42,496 INFO (StartupInfoLogger.java:57)- Started StartApp in 8.58 seconds (JVM running for 2383.56)
+2017-09-30 23:11:49,652 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:11:49,654 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:11:49,655 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:34:58,129 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:34:58,129 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:34:58,130 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:35:55,664 INFO (StartupInfoLogger.java:57)- Started StartApp in 57.639 seconds (JVM running for 3836.696)
+2017-09-30 23:39:03,400 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:39:03,400 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:39:03,401 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:39:09,630 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.34 seconds (JVM running for 4030.657)
+2017-09-30 23:39:28,627 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:39:28,629 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:39:28,630 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:42:36,269 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:42:36,270 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:42:36,275 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:55:48,494 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2480 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:55:48,495 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:55:48,495 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:55:54,946 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.56 seconds (JVM running for 5035.951)
+2017-09-30 23:58:03,541 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2872 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-09-30 23:58:03,541 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-09-30 23:58:03,542 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-09-30 23:58:15,424 INFO (StartupInfoLogger.java:57)- Started StartApp in 12.553 seconds (JVM running for 15.569)
+2017-09-30 23:58:58,269 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:58:58,285 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-09-30 23:58:58,297 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-09-30 23:59:43,066 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-09-30 23:59:43,066 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-09-30 23:59:43,066 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:03:38,204 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2872 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:03:38,205 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:03:38,205 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:03:43,697 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.564 seconds (JVM running for 343.834)
+2017-10-01 00:03:58,479 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:03:58,482 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 00:03:58,484 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:06:42,370 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3180 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:06:42,371 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:06:42,372 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:09:20,209 INFO (StartupInfoLogger.java:57)- Started StartApp in 158.398 seconds (JVM running for 160.2)
+2017-10-01 00:09:26,192 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:09:26,208 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 00:09:26,222 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:29:34,376 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 6860 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:29:34,377 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:29:34,378 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:29:39,286 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.755 seconds (JVM running for 6.956)
+2017-10-01 00:30:14,432 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:30:14,446 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 00:30:14,457 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:41:24,206 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 6860 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:41:24,207 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:41:24,207 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:41:25,855 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.696 seconds (JVM running for 713.51)
+2017-10-01 00:41:41,274 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:41:41,276 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 00:41:41,278 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:47:16,246 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:47:16,246 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-10-01 00:47:16,247 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:48:38,351 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3020 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:48:38,351 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:48:38,351 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:48:43,799 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.731 seconds (JVM running for 6.784)
+2017-10-01 00:49:01,508 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:50:58,542 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 1212 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:50:58,543 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:50:58,544 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:51:04,276 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.236 seconds (JVM running for 7.276)
+2017-10-01 00:53:50,402 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:58:02,518 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 1572 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 00:58:02,519 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 00:58:02,520 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 00:58:07,380 INFO (StartupInfoLogger.java:57)- Started StartApp in 5.508 seconds (JVM running for 6.589)
+2017-10-01 00:58:20,242 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:58:20,256 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 00:58:20,267 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 00:58:33,710 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 00:58:33,710 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-10-01 00:58:33,710 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:42:39,744 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:42:39,758 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:42:39,758 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:42:45,877 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.59 seconds (JVM running for 11.682)
+2017-10-01 01:43:17,078 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:43:17,091 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:43:17,102 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:43:41,177 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:43:41,179 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 01:43:41,182 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:44:32,733 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:44:32,733 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:44:32,733 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:44:35,078 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.445 seconds (JVM running for 120.889)
+2017-10-01 01:44:47,638 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:44:47,640 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:44:47,641 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:47:37,264 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:47:37,265 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:47:37,265 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:47:39,188 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.004 seconds (JVM running for 304.985)
+2017-10-01 01:48:06,761 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:48:06,762 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:48:06,763 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:49:11,569 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:49:11,569 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:49:11,569 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:49:13,020 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.498 seconds (JVM running for 398.824)
+2017-10-01 01:49:22,824 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:49:22,826 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:49:22,827 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:50:31,213 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:50:31,213 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:50:31,214 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:50:33,565 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.394 seconds (JVM running for 479.359)
+2017-10-01 01:50:49,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:50:49,245 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 01:50:49,247 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:52:17,163 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:52:17,163 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:52:17,163 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:52:19,535 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.435 seconds (JVM running for 585.336)
+2017-10-01 01:52:27,448 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:52:27,448 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:52:27,448 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:52:55,182 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:52:55,182 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-10-01 01:52:55,198 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:54:54,225 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:54:54,225 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:54:54,225 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:54:56,557 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.382 seconds (JVM running for 742.345)
+2017-10-01 01:55:06,505 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:55:06,507 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:55:06,508 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:55:41,772 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:55:41,775 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-10-01 01:55:41,778 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 01:57:53,934 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 01:57:53,935 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 01:57:53,935 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 01:57:55,650 INFO (StartupInfoLogger.java:57)- Started StartApp in 1.757 seconds (JVM running for 921.435)
+2017-10-01 01:58:12,777 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 01:58:12,779 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 01:58:12,780 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:00:36,094 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:00:36,095 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 02:00:36,097 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:15:05,005 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:15:05,006 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:15:05,006 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:15:07,931 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.984 seconds (JVM running for 1953.692)
+2017-10-01 02:15:26,410 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:15:26,411 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:15:26,411 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:15:29,003 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.673 seconds (JVM running for 1974.765)
+2017-10-01 02:16:02,882 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:16:02,883 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:16:02,883 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:16:05,145 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.34 seconds (JVM running for 2010.905)
+2017-10-01 02:18:33,043 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:18:33,043 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:18:33,043 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:18:35,939 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.948 seconds (JVM running for 2161.696)
+2017-10-01 02:22:21,966 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 2084 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:22:21,966 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:22:21,966 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:22:24,285 INFO (StartupInfoLogger.java:57)- Started StartApp in 2.359 seconds (JVM running for 2390.037)
+2017-10-01 02:25:26,536 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 6276 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:25:26,537 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:25:26,537 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:25:32,363 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.86 seconds (JVM running for 8.694)
+2017-10-01 02:25:47,647 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:25:47,661 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-01 02:25:47,673 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:27:25,011 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:27:25,011 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 02:27:25,027 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:27:32,239 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:27:32,239 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 02:27:32,239 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:28:24,527 INFO (StartupInfoLogger.java:48)- Starting StartApp on 2LZ453IJW7NSNWF with PID 3384 (C:\Users\Administrator\IdeaProjects\ReadingShare\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\ReadingShare)
+2017-10-01 02:28:24,527 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2017-10-01 02:28:24,527 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-01 02:28:29,978 INFO (StartupInfoLogger.java:57)- Started StartApp in 6.255 seconds (JVM running for 7.388)
+2017-10-01 02:28:45,771 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:28:45,785 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user(String)
+2017-10-01 02:28:45,797 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:29:05,243 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:29:05,244 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: user2(String)
+2017-10-01 02:29:05,246 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-01 02:29:27,265 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select a.*,b.* from USER a, ROLE b, USER_ROLE c where a.user_name = ? and a.user_id = c.user_id and c.role_id = b.role_id 
+2017-10-01 02:29:27,266 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: student(String)
+2017-10-01 02:29:27,267 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

@@ -37,6 +37,12 @@ public class StartApp {
         System.out.println("into index---------------------------------"+single.getUserName());
         return mv;
     }
+    @RequestMapping("/hello")
+    public ModelAndView hello() {
+        System.out.println("into  page---------------------------------");
+        ModelAndView mv = new ModelAndView("hello"); //到指定页面hello.html
+        return mv;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(StartApp.class,args);

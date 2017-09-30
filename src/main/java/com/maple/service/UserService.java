@@ -20,6 +20,7 @@ public class UserService implements UserDetailsService {
             throw new UsernameNotFoundException("用户名不存在");
         }
         System.out.println("s:"+s);
+        System.out.println(user.getAuthorities());
         System.out.println("username:"+user.getUsername()+";password:"+user.getPassword());
         return user;
     }
