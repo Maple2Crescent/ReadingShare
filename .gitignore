@@ -1,0 +1,5 @@
+/.idea/*
+/target/
+/log/base.log
+!.gitignore
+reading.iml
