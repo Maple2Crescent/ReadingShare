@@ -1,6 +1,6 @@
 package com.maple;
 
-import com.maple.model.User;
+import com.maple.model.TestUser;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,14 +21,16 @@ public class StartApp {
     @RequestMapping("/")
     public ModelAndView index() {
         System.out.println("into index---------------------------------");
-        User single = new User("1","test1");
-        List<User> people = new ArrayList<>();
-        User p1 = new User("2", "test2");
-        User p2 = new User("3", "test3");
-        User p3 = new User("4", "test4");
+        TestUser single = new TestUser();
+        single.setUserName("test");
+        single.setUserDesc("测试1");
+        List<TestUser> people = new ArrayList<>();
+        TestUser p1 = new TestUser();
+        p1.setUserName("test2");
+        p1.setUserDesc("测试2");
+
         people.add(p1);
-        people.add(p2);
-        people.add(p3);
+        people.add(single);
         ModelAndView mv = new ModelAndView("index"); //到指定页面index.html
         mv.addObject("single", single);
         mv.addObject("people", people);

@@ -1,9 +1,11 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8" />
-    <title>Index</title>
+    <meta charset="UTF-8"/>
+    <title>index</title>
     <link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
     <link th:href="@{bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet" />
+    <script th:src="@{jquery/jquery-3.2.1.js}" type="text/javascript"></script>
+    <script th:src="@{bootstrap/js/bootstrap.js}" type="text/javascript"></script>
 </head>
 <body>
 <div class="panel panel-primary">
@@ -11,7 +13,7 @@
         <h3 class="panel-title">访问Model</h3>
     </div>
     <div class="panel-body">
-        <span th:text="${single.userId}"></span>
+        <span th:text="${single.userName}"></span>
     </div>
 </div>
 <div th:if="${not #lists.isEmpty(people)}">
@@ -22,21 +24,20 @@
         <div class="panel-body">
             <ul class="list-group">
                 <li class="list-group-item" th:each="user:${people}">
-                    <span th:text="${user.userId}"></span>
                     <span th:text="${user.userName}"></span>
-                    <button class="btn" th:onclick="'getName(\''+${user.userId}+'\');'">获得名字</button>
+                    <span th:text="${user.userDesc}"></span>
+                    <button class="btn" th:onclick="'getName(\''+${user.userName}+'\');'">获得名字</button>
                 </li>
             </ul>
         </div>
     </div>
 </div>
-<script th:src="@{jquery-3.2.1.js}" type="text/javascript"></script>
-<script th:src="@{bootstrap/js/bootstrap.js}" type="text/javascript"></script>
+
 <script th:inline="javascript">
     var single = [[${single}]];
-    console.log(single.userId+"/"+single.userName);
-    function getName(userId) {
-        console.log(userId);
+    console.log(single.userName+"/"+single.userDesc);
+    function getName(userName) {
+        console.log(userName);
     }
 </script>
 </body>

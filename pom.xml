@@ -82,6 +82,12 @@
             <version>1.14</version>
         </dependency>
 
+        <!--权限控制-->
+       <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!--构建前端页面模板-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

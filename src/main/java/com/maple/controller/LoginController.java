@@ -1,10 +1,10 @@
 package com.maple.controller;
 
-import com.maple.config.Response;
 import com.maple.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 @RestController
 public class LoginController {
@@ -12,10 +12,10 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value="/getUserName")
-    public Response getUserName(String userId){
-        System.out.println("-----------Into getUserName method-----------");
-         return userService.getUserName();
+    @RequestMapping(value="/login")
+    public ModelAndView login(){
+        ModelAndView mv = new ModelAndView("login"); //到指定页面index.html
+        return  mv;
     }
 
 

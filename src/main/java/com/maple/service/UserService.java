@@ -1,22 +1,27 @@
 package com.maple.service;
 
-import com.maple.config.Response;
 import com.maple.mapper.UserMapper;
 import com.maple.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
-public class UserService {
+public class UserService implements UserDetailsService {
     @Autowired
     private UserMapper userMapper;
 
-    public Response getUserName(){
-        User user = userMapper.getUserInfo();
-        System.out.println(user.getUserId()+"----------------------------------");
-        Response response = new Response();
-        response.setData(user);
-        response.setStatus(Response.STATUS_SUCCESS);
-        return  response;
+    @Override
+    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+        User user = userMapper.findByUsername(s);
+        if (user == null) {
+            throw new UsernameNotFoundException("用户名不存在");
+        }
+        System.out.println("s:"+s);
+        System.out.println("username:"+user.getUsername()+";password:"+user.getPassword());
+        return user;
     }
+
 }

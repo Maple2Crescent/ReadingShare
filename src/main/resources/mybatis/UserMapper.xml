@@ -4,8 +4,25 @@
 <mapper namespace="com.maple.mapper.UserMapper">
 
     <select id="getUserInfo" resultType="user">
-        select * from user
+        select * from user where user_id = 1
     </select>
+
+    <select id="findByUsername" resultMap="userAndRoles">
+      select  a.*,b.*  from USER a, ROLE b, USER_ROLE c
+      where a.user_name = #{userName,jdbcType=VARCHAR}
+      and a.user_id = c.user_id
+      and c.role_id = b.role_id
+    </select>
+    <resultMap id="userAndRoles" type="user">
+       <id column="USER_ID" property="userId" />
+        <result column="USER_NAME" property="userName" />
+        <result column="PASSWORD" property="password" />
+        <result column="USER_DESC" property="user_desc" />
+        <collection property="roles" ofType="role">
+            <id column="ROLE_ID"  property="roleId" />
+            <result column="ROLE_NAME" property="roleName" />
+        </collection>
+    </resultMap>
 
 </mapper>
 
