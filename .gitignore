@@ -3,3 +3,7 @@
 /log/base.log
 !.gitignore
 reading.iml
+/log/
+/data/data.db
+/data/dev_data.db
+/.idea/
