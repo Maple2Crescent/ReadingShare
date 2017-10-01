@@ -12,18 +12,27 @@ import java.util.List;
 @Alias("user")
 public class User implements UserDetails {
 
-    private Long userId;
+    private int userId;
     private String userName;
     private String password;
     private String userDesc;
     private List<Role> roles;
+    private String roleName;
 
-    public Long getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(Long id) {
+    public void setUserId(int userId) {
         this.userId = userId;
+    }
+
+    public String getRoleName() {
+        return roleName;
+    }
+
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
     }
 
     public String getUserName() {

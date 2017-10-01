@@ -10,6 +10,7 @@ public class LoginController {
     @RequestMapping(value="/login")
     public ModelAndView login(){
         ModelAndView mv = new ModelAndView("login");
+        mv.addObject("registerMsg","");
         return  mv;
     }
 

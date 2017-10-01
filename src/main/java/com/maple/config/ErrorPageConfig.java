@@ -21,6 +21,7 @@ public class ErrorPageConfig {
         public void customize(ConfigurableEmbeddedServletContainer container) {
             container.addErrorPages(new ErrorPage(HttpStatus.FORBIDDEN, "/page/403"));
             container.addErrorPages(new ErrorPage(HttpStatus.NOT_FOUND, "/page/404"));
+            container.addErrorPages(new ErrorPage(HttpStatus.INTERNAL_SERVER_ERROR, "/page/500"));
             container.addErrorPages(new ErrorPage(HttpStatus.SERVICE_UNAVAILABLE, "/page/500"));
         }
 

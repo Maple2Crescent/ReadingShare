@@ -3,10 +3,6 @@
 
 <mapper namespace="com.maple.mapper.UserMapper">
 
-    <select id="getUserInfo" resultType="user">
-        select * from user where user_id = 1
-    </select>
-
     <select id="findByUsername" resultMap="userAndRoles">
       select  a.*,b.*  from USER a, ROLE b, USER_ROLE c
       where a.user_name = #{userName,jdbcType=VARCHAR}
@@ -23,6 +19,26 @@
             <result column="ROLE_NAME" property="roleName" />
         </collection>
     </resultMap>
+
+    <insert id="saveUser" parameterType="user">
+        <selectKey resultType="int" order="AFTER" keyProperty="userId">
+            SELECT last_insert_rowid()
+        </selectKey>
+        insert into USER(user_name,password,user_desc)  values(#{userName},#{password},#{userDesc})
+    </insert>
+
+    <insert id="saveUserRoleMap" parameterType="java.util.Map">
+        insert into USER_ROLE(user_id,role_id)
+        select #{userId}, role_id from ROLE where role_name = #{roleName}
+    </insert>
+    
+    <delete id="deleteUser" parameterType="java.lang.Long">
+        delete from USER where user_id = #{userId}
+    </delete>
+    
+    <update id="updateUser" parameterType="user">
+        update USER set password = #{password}, user_desc = #{userDesc} where user_id = #{userId}
+    </update>
 
 </mapper>
 
