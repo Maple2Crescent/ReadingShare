@@ -30,12 +30,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/", "/hello","page/*").hasAnyRole("ADMIN","STUDENT","USER")
+                .antMatchers("/","/page/*","/user/*").hasAnyRole("ADMIN","STUDENT","USER")
                 .antMatchers("/register").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/login").successForwardUrl("/")
+                .loginPage("/login").defaultSuccessUrl("/")
                 .permitAll()
                 .and()
                 .logout()

@@ -55,4 +55,15 @@ public class UserService implements UserDetailsService {
         userMapper.saveUserRoleMap(parameter);
     }
 
+    public boolean changePassword(User user, String newPwd, String oldPwd){
+       if(!passwordEncoder.matches(oldPwd,user.getPassword())){
+           user.setPassword(passwordEncoder.encode(newPwd));
+           userMapper.updateUser(user);
+           return true;
+       }
+       else{
+           return  false;
+       }
+    }
+
 }

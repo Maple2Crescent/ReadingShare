@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8"/>
-    <title>注册页面</title>
-    <link th:href="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet" />
-    <link th:href="@{bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet" />
-    <script th:src="@{jquery/jquery-3.2.1.js}" type="text/javascript"></script>
-    <script th:src="@{bootstrap/js/bootstrap.js}" type="text/javascript"></script>
-    <script>
-        $(document).ready(function(){
-            $( "#roleName1" ).prop( "checked", true );
-        });
-    </script>
-</head>
+<head th:include="common" />
+<title>注册页面</title>
+<script>
+    $(document).ready(function(){
+        $( "#roleName1" ).prop( "checked", true );
+    });
+</script>
 <body>
 <h1>注册页面</h1>
 

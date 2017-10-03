@@ -16,7 +16,7 @@ public class LoginController {
 
     @RequestMapping(value="/page/403")
     public ModelAndView error403(){
-        ModelAndView mv = new ModelAndView("pageError");
+        ModelAndView mv = new ModelAndView("/system/pageError");
         mv.addObject("error", "HTTP Status 403 - 禁止访问该网址");
         mv.addObject("message", "当前用户没有权限此页面");
         return  mv;
@@ -24,7 +24,7 @@ public class LoginController {
 
     @RequestMapping(value="/page/404")
     public ModelAndView error404(){
-        ModelAndView mv = new ModelAndView("pageError");
+        ModelAndView mv = new ModelAndView("/system/pageError");
         mv.addObject("error", "HTTP Status 404 - 无法访问此网站");
         mv.addObject("message", "请检查输入的网址是否正确");
         return  mv;
@@ -32,7 +32,7 @@ public class LoginController {
 
     @RequestMapping(value="/page/500")
     public ModelAndView error500(){
-        ModelAndView mv = new ModelAndView("pageError");
+        ModelAndView mv = new ModelAndView("/system/pageError");
         mv.addObject("error", "HTTP Status 500 - 服务器无法响应请求");
         mv.addObject("message", "请联系管理员去检查服务器");
         return  mv;
