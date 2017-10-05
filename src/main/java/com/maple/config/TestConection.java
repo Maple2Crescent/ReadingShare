@@ -23,7 +23,7 @@ public class TestConection {
         String password = "123";
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder(10);
         System.out.println(passwordEncoder.encode(password));
-        System.out.println(passwordEncoder.matches("1111111111111111","$2a$10$3B115ZFvWRC5oFxmeQKjTeZH8GWCMkvF3D5vA77wR.PKEEmUey8QO"));
+        System.out.println(passwordEncoder.matches("1111111111111111","$2a$10$GOu/a9bP4RhD24h//wWEAOiBOP1RFbKuHb79MWRDOzzgatv2UQWNa"));
 
     }
 

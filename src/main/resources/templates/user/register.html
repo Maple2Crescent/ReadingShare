@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:include="common" />
+<head th:include="system/resources::resources" />
 <title>注册页面</title>
 <script>
     $(document).ready(function(){
@@ -8,7 +8,9 @@
     });
 </script>
 <body>
-<h1>注册页面</h1>
+<div class="container" align="center">
+
+<h3>欢迎您注册阅读分享平台, 如果您已有账户, 则可以在此<a th:href="@{/login}">登录</a></h3>
 
 <div><h3 th:text="${errorMsg}"></h3></div>
 
@@ -29,5 +31,11 @@
     <input type="reset" class="btn btn-primary"/>
     <input type="submit" class="btn btn-primary"/>
 </form>
+</div>
 </body>
+<footer class="footer navbar-fixed-bottom ">
+    <div class="container" align="center">
+        Copyright ©2017 Maple, All Rights Reserved
+    </div>
+</footer>
 </html>
