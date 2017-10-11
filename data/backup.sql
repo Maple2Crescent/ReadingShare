@@ -7,16 +7,6 @@ INSERT INTO ROLE VALUES(1,'ROLE_STUDENT');
 INSERT INTO ROLE VALUES(2,'ROLE_ADMIN');
 INSERT INTO ROLE VALUES(3,'ROLE_USER');
 INSERT INTO ROLE VALUES(4,'ROLE_OTHERS');
-CREATE TABLE [USER](
-    [user_id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
-    [user_name] VARCHAR2(10) NOT NULL, 
-    [password] VARCHAR2(100) NOT NULL, 
-    [user_desc] VARCHAR2(20));
-INSERT INTO USER VALUES(1,'student','$2a$10$BSGLxyT0z98Q9/o4bEGHOOY1k18YKJguEmcDrPajUQCNjTBZ2ItKy','学生');
-INSERT INTO USER VALUES(2,'admin','$2a$10$GOu/a9bP4RhD24h//wWEAOiBOP1RFbKuHb79MWRDOzzgatv2UQWNa','管理员');
-INSERT INTO USER VALUES(4,'user2','$2a$10$BSGLxyT0z98Q9/o4bEGHOOY1k18YKJguEmcDrPajUQCNjTBZ2ItKy','非法游客');
-INSERT INTO USER VALUES(17,'student2','$2a$10$M7uCTULK4nedaDhPs66fueMpwYuNM90UY0YjisMcighZvMeU0YTiW','学生注册测试');
-INSERT INTO USER VALUES(18,'user123','$2a$10$lPzgaMvX7gjuWF1MqyglmuQPqhenNZm7GGaDiBl/MN/KrW1BKcgmS','用户注册测试');
 CREATE TABLE [USER_ROLE](
     [user_id] INTEGER NOT NULL, 
     [role_id] INTEGER NOT NULL);
@@ -25,32 +15,46 @@ INSERT INTO USER_ROLE VALUES(2,2);
 INSERT INTO USER_ROLE VALUES(4,4);
 INSERT INTO USER_ROLE VALUES(17,1);
 INSERT INTO USER_ROLE VALUES(18,3);
-CREATE TABLE [POST](
-    [post_id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
-    [title] VARCHAR2(20) NOT NULL, 
-    [content] VARCHAR2(500) NOT NULL, 
-    [user_id] INTEGER NOT NULL, 
-    [post_time] TIMESTAMP NOT NULL DEFAULT (DATETIME ('now', 'localtime')));
-INSERT INTO POST VALUES(1,'雷雨','雷雨这本书不错哦',1,'2017-10-02 18:54:04');
-INSERT INTO POST VALUES(2,'日出','这里的日出很漂亮',1,'2017-10-02 18:55:07');
+CREATE TABLE [USER](
+    [user_id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+    [user_name] VARCHAR2(10) NOT NULL, 
+    [password] VARCHAR2(100) NOT NULL, 
+    [user_desc] VARCHAR2(20) NOT NULL);
+INSERT INTO USER VALUES(1,'student','$2a$10$BSGLxyT0z98Q9/o4bEGHOOY1k18YKJguEmcDrPajUQCNjTBZ2ItKy','学生1');
+INSERT INTO USER VALUES(2,'admin','$2a$10$x.JYQUOrrlcLjtdCkSyR1u/UJAup/u5db7jVBrCZezmbPqha98tva','管理员');
+INSERT INTO USER VALUES(4,'user2','$2a$10$BSGLxyT0z98Q9/o4bEGHOOY1k18YKJguEmcDrPajUQCNjTBZ2ItKy','非法游客');
+INSERT INTO USER VALUES(17,'student2','$2a$10$M7uCTULK4nedaDhPs66fueMpwYuNM90UY0YjisMcighZvMeU0YTiW','学生2');
+INSERT INTO USER VALUES(18,'user123','$2a$10$lPzgaMvX7gjuWF1MqyglmuQPqhenNZm7GGaDiBl/MN/KrW1BKcgmS','游客用户1');
 CREATE TABLE [ADMIRE](
     [post_id] INTEGER NOT NULL, 
     [user_id] INTEGER NOT NULL, 
+    [user_name] VARCHAR2(20) NOT NULL, 
     [status] CHAR(1) NOT NULL, 
-    [admire_time] TIMESTAMP NOT NULL DEFAULT (datetime('now', 'localtime')), 
+    [admire_time] VARCHAR2(20) NOT NULL DEFAULT (DATETIME ('now', 'localtime')), 
     PRIMARY KEY([post_id], [user_id]));
-INSERT INTO ADMIRE VALUES(1,2,'1','2017-10-02 19:10:15');
+INSERT INTO ADMIRE VALUES(1,2,'admin','1','2017-10-05 22:26:22');
 CREATE TABLE [COMMENT](
     [com_id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
     [post_id] INTEGER NOT NULL, 
     [comment] VARCHAR2(150) NOT NULL, 
     [user_id] INTEGER NOT NULL, 
+    [user_name] VARCHAR2(20) NOT NULL, 
     [refer_id] INTEGER NOT NULL, 
-    [reply_time] TIMESTAMP NOT NULL DEFAULT (DATETIME ('now', 'localtime')));
-INSERT INTO COMMENT VALUES(1,1,'我也觉得雷雨很不错哦，加油',2,0,'2017-10-02 19:07:46');
+    [reply_time] VARCHAR2(20) NOT NULL DEFAULT (DATETIME ('now', 'localtime')));
+INSERT INTO COMMENT VALUES(1,1,'我也觉得雷雨很不错哦，加油',17,'student2',0,'2017-10-02 19:07:46');
+INSERT INTO COMMENT VALUES(2,1,'我也很喜欢雷雨里面的人物塑造呢',1,'student',0,'2017-10-05 21:42:55');
+CREATE TABLE [POST](
+    [post_id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+    [title] VARCHAR2(20) NOT NULL, 
+    [content] VARCHAR2(500) NOT NULL, 
+    [user_id] INTEGER NOT NULL, 
+    [user_name] VARCHAR2(20) NOT NULL, 
+    [post_time] VARCHAR2(20) NOT NULL DEFAULT (DATETIME ('now', 'localtime')));
+INSERT INTO POST VALUES(1,'雷雨','雷雨这本书不错哦',1,'student','2017-10-02 18:54:04');
+INSERT INTO POST VALUES(2,'日出','这里的日出很漂亮',1,'student','2017-10-02 18:55:07');
 DELETE FROM sqlite_sequence;
 INSERT INTO sqlite_sequence VALUES('ROLE',4);
 INSERT INTO sqlite_sequence VALUES('USER',18);
+INSERT INTO sqlite_sequence VALUES('COMMENT',2);
 INSERT INTO sqlite_sequence VALUES('POST',2);
-INSERT INTO sqlite_sequence VALUES('COMMENT',1);
 COMMIT;

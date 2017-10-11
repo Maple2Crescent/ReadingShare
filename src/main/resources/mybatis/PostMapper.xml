@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.maple.mapper.PostMapper">
+
+    <select id="getPostList" resultMap="postList">
+       SELECT a.*,
+                       b.com_id com_id, b.post_id b_post_id, b.comment, b.user_id b_user_id, b.user_name b_user_name, b.refer_id, b.reply_time,
+                       c.post_id c_post_id, c.user_id c_user_id, c.user_name c_user_name, c.status, c.admire_time
+       FROM POST a
+                   left outer join COMMENT b on (a.post_id = b.post_id)
+                   left outer join ADMIRE c on (a.post_id = c.post_id)
+       <where>
+           <if test="post_user_id != null and post_user_id != '' ">
+               a.user_id = #{post_user_id}
+           </if>
+           <if test="com_user_id != null and com_user_id != '' ">
+               b.user_id = #{com_user_id}
+           </if>
+       </where>
+       order by a.post_time desc, b.reply_time
+    </select>
+    <resultMap id="postList" type="post">
+       <id column="POST_ID" property="postId" />
+        <result column="TITLE" property="title" />
+        <result column="CONTENT" property="content" />
+        <result column="USER_ID" property="userId" />
+        <result column="USER_NAME" property="userName" />
+        <result column="POST_TIME" property="postTime" />
+        <collection property="comments" ofType="comment">
+            <id column="COM_ID"  property="comId" />
+            <result column="B_POST_ID" property="postId" />
+            <result column="COMMENT" property="comment" />
+            <result column="B_USER_ID" property="userId" />
+            <result column="B_USER_NAME" property="userName" />
+            <result column="REFER_ID" property="referId" />
+            <result column="REPLY_TIME" property="replyTime" />
+        </collection>
+        <collection property="admires" ofType="admire">
+            <id column="C_POST_ID"  property="postId" />
+            <id column="C_USER_ID" property="userId" />
+            <result column="C_USER_NAME" property="userName" />
+            <result column="STATUS" property="status" />
+            <result column="ADMIRE_TIME" property="admireTime" />
+        </collection>
+    </resultMap>
+
+</mapper>
+

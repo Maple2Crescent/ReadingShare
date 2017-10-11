@@ -1,5 +1,6 @@
 package com.maple.config;
 
+import com.maple.model.Post;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.sql.*;
@@ -10,12 +11,16 @@ public class TestConection {
         Class.forName("org.sqlite.JDBC");
         Connection conn = DriverManager.getConnection(sql);
         Statement stat = conn.createStatement();
-        ResultSet rs =  stat.executeQuery("select * from post;");
+        ResultSet rs =  stat.executeQuery("select * from post order by post_time desc;");
         while (rs.next()) { //将查询到的数据打印出来
             System.out.print("post id = " + rs.getString("post_id") + " "); //列属性一
             System.out.print("title  = " + rs.getString("title") + " "); //列属性二
             System.out.print("content  = " + rs.getString("content") + " "); //列属性二
             System.out.println("time  = " + rs.getString("post_time")); //列属性二
+            Post post = new Post();
+            post.setPostId(rs.getInt("post_id"));
+            post.setPostTime( rs.getString("post_time"));
+            System.out.println(post.getPostTime());
         }
         rs.close();
         conn.close(); //结束数据库的连接
