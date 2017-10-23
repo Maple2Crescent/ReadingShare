@@ -26,6 +26,7 @@ public class MainController {
         result.put("msgExtraInfo","额外信息，只对管理员显示");
         List<Post> postList = postService.getPostList();
         System.out.println("------now post size:"+postList.get(0).getPostTime().toString());
+        result.put("postList",postList);
         return new ModelAndView("home",result); //到指定页面index.html
     }
 }

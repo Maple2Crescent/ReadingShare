@@ -2,6 +2,7 @@ package com.maple.service;
 
 import com.maple.mapper.UserMapper;
 import com.maple.model.User;
+import org.apache.ibatis.type.Alias;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -14,6 +15,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
+@Alias("userService")
 public class UserService implements UserDetailsService {
 
     @Autowired

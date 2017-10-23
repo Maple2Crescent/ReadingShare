@@ -38,6 +38,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/login").defaultSuccessUrl("/")
                 .permitAll()
                 .and()
+                .rememberMe().key("elim").userDetailsService(userDetailsService()).rememberMeParameter("remember-me")
+                .and()
                 .logout()
                 .permitAll();
     }
