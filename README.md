@@ -10,10 +10,10 @@ build:
       第二种方式：In CMD line into project root: mvn spring-boot:run
 
 #SQL operation:
-backup:   sqlite3 dev_data.db .dump > backup.sql
-recovery: sqlite3 dev_data.db < backup.sql
+     backup:   sqlite3 dev_data.db .dump > backup.sql
+     recovery: sqlite3 dev_data.db < backup.sql
 
-#Test account user:password
+#Test account (user:password)
    student2:1234qwer
    user123: 1234qwer, 
    admin:123
